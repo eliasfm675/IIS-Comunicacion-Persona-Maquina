@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="ExternalProjectImportWizard">
+		<item key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED" value="true"/>
+		<item key="WizardProjectsImportPage.STORE_CLOSE_CREATED_PROJECTS_ID" value="false"/>
+		<item key="WizardProjectsImportPage.STORE_HIDE_CONFLICTING_PROJECTS_ID" value="false"/>
+		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value=""/>
+			<item value="C:\Users\Elías\OneDrive\Escritorio\Software\2do\CPM\ZZEjemploExamenM1"/>
+		</list>
+		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
+			<item value="C:\Users\Elías\Downloads\ProyectoInternacionalizado.zip"/>
+			<item value="C:\Users\Elías\Downloads\sesion11.zip"/>
+			<item value="C:\Users\Elías\Downloads\sesion09Task.zip"/>
+			<item value="C:\Users\Elías\Downloads\EjemploExamenM1.zip"/>
+			<item value="C:\Users\Elías\Downloads\sesion08.zip"/>
+			<item value="C:\Users\Elías\Downloads\TraductorCPM.zip"/>
+			<item value="C:\Users\Elías\OneDrive\Escritorio\Software\2do\CPM\sesion06Task.zip"/>
+			<item value="C:\Users\Elías\Downloads\sesion06 (2).zip"/>
+			<item value="C:\Users\Elías\Downloads\sesion07 (1).zip"/>
+			<item value="C:\Users\Elías\Downloads\sesion05.zip"/>
+			<item value="C:\Users\Elías\Downloads\sesion04 (1).zip"/>
+			<item value="C:\Users\Elías\Downloads\sesion03.zip"/>
+			<item value="C:\Users\Elías\Downloads\sesion02.zip"/>
+			<item value="C:\Users\Elías\OneDrive\Escritorio\Software\2do\CPM\sesion01 (1).zip"/>
+		</list>
+	</section>
+	<section name="NewWizardAction">
+	</section>
+</section>

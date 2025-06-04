@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.wb.internal.swing.model.property.editor.font.FontDialog">
+		<item key="x" value="663"/>
+		<item key="y" value="192"/>
+		<item key="width" value="599"/>
+		<item key="height" value="635"/>
+	</section>
+	<section name="org.eclipse.wb.internal.swing.model.property.editor.models.combo.ComboBoxModelDialog">
+		<item key="x" value="653"/>
+		<item key="y" value="280"/>
+		<item key="width" value="613"/>
+		<item key="height" value="460"/>
+	</section>
+	<section name="org.eclipse.wb.internal.swing.laf.ui.AddCustomLookAndFeelDialog">
+		<item key="x" value="583"/>
+		<item key="y" value="250"/>
+		<item key="width" value="753"/>
+		<item key="height" value="520"/>
+	</section>
+	<section name="org.eclipse.wb.internal.swing.model.property.editor.icon.ImagePropertyEditor$ImageDialog">
+		<item key="x" value="0"/>
+		<item key="y" value="165"/>
+		<item key="width" value="1147"/>
+		<item key="height" value="689"/>
+	</section>
+	<section name="org.eclipse.wb.internal.swing.model.property.editor.border.BorderDialog">
+		<item key="x" value="525"/>
+		<item key="y" value="449"/>
+		<item key="width" value="623"/>
+		<item key="height" value="571"/>
+	</section>
+	<section name="org.eclipse.wb.internal.swing.model.property.editor.icon.IconPropertyEditor$ImageDialog">
+		<item key="x" value="115"/>
+		<item key="y" value="199"/>
+		<item key="width" value="1147"/>
+		<item key="height" value="714"/>
+	</section>
+	<section name="org.eclipse.wb.internal.swing.model.property.editor.accelerator.KeyStrokePropertyEditor$KeyStrokeDialog">
+		<item key="x" value="716"/>
+		<item key="y" value="206"/>
+		<item key="width" value="488"/>
+		<item key="height" value="607"/>
+	</section>
+	<section name="org.eclipse.wb.internal.swing.model.property.editor.models.spinner.SpinnerModelDialog">
+		<item key="x" value="610"/>
+		<item key="y" value="226"/>
+		<item key="width" value="700"/>
+		<item key="height" value="568"/>
+	</section>
+</section>

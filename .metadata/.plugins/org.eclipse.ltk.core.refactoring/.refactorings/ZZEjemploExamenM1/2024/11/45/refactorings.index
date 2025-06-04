@@ -1,0 +1,5 @@
+1730886862477	Rename field 'ps'
+1730887667340	Rename field 'premios'
+1730889146299	Extract method 'actualizarPuntos'
+1730889175511	Rename method 'actualizarPuntos'
+1730889209401	Extract method 'actualizarPuntos'

@@ -1,0 +1,84 @@
+package uo.cpm.modulo.ui;
+
+import java.awt.EventQueue;
+
+import javax.swing.JFrame;
+import javax.swing.JPanel;
+import javax.swing.border.EmptyBorder;
+import java.awt.CardLayout;
+import java.awt.Toolkit;
+import java.awt.BorderLayout;
+import javax.swing.JLabel;
+import javax.swing.JButton;
+import javax.swing.BoxLayout;
+import java.awt.GridLayout;
+import javax.swing.ImageIcon;
+import java.awt.Color;
+
+public class VentanaPrincipal extends JFrame {
+
+	private JPanel contentPane;
+	private JPanel panelInicio;
+	private JPanel panelBienvenida;
+	private JPanel panelIdiomas;
+	private JButton btnNewButton;
+	private JLabel lblNewLabel;
+
+	/**
+	 * Create the frame.
+	 */
+	public VentanaPrincipal() {
+		setTitle("Uniovi's ");
+		setIconImage(Toolkit.getDefaultToolkit().getImage(VentanaPrincipal.class.getResource("/img/logo.png")));
+		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		setBounds(100, 100, 728, 493);
+		contentPane = new JPanel();
+		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
+
+		setContentPane(contentPane);
+		contentPane.setLayout(new CardLayout(0, 0));
+		contentPane.add(getPanelInicio(), "name_1017892594500");
+	}
+
+	private JPanel getPanelInicio() {
+		if (panelInicio == null) {
+			panelInicio = new JPanel();
+			panelInicio.setBackground(new Color(255, 255, 255));
+			panelInicio.setLayout(null);
+			panelInicio.add(getPanelBienvenida());
+			panelInicio.add(getPanelIdiomas());
+		}
+		return panelInicio;
+	}
+	private JPanel getPanelBienvenida() {
+		if (panelBienvenida == null) {
+			panelBienvenida = new JPanel();
+			panelBienvenida.setBounds(0, 69, 704, 377);
+			panelBienvenida.add(getLblNewLabel());
+		}
+		return panelBienvenida;
+	}
+	private JPanel getPanelIdiomas() {
+		if (panelIdiomas == null) {
+			panelIdiomas = new JPanel();
+			panelIdiomas.setBounds(531, 0, 173, 71);
+			panelIdiomas.setLayout(new GridLayout(0, 3, 0, 0));
+			panelIdiomas.add(getBtnNewButton_1());
+		}
+		return panelIdiomas;
+	}
+	private JButton getBtnNewButton_1() {
+		if (btnNewButton == null) {
+			btnNewButton = new JButton("");
+			btnNewButton.setIcon(new ImageIcon(VentanaPrincipal.class.getResource("/img/spain.png")));
+		}
+		return btnNewButton;
+	}
+	private JLabel getLblNewLabel() {
+		if (lblNewLabel == null) {
+			lblNewLabel = new JLabel("");
+			lblNewLabel.setIcon(new ImageIcon(VentanaPrincipal.class.getResource("/img/bienvenida.png")));
+		}
+		return lblNewLabel;
+	}
+}

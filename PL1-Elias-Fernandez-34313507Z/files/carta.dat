@@ -1,0 +1,20 @@
+BE01@Agua@Agua mineral sin gas, botella de medio litro@SI@Bebida@2.5
+BE02@Coca cola@Botella de colacola de 35 cl.@SI@Bebida@2.25
+BE03@Vino godello@Vino blanco delicado y elegante, con un gran equilibrio entre frescor y volumen@SI@Bebida@18
+EN01@Ensalada Cesar@Lechuga, pollo, tomate cherry, parmesano, crujientes de pan y salsa cesar@NO@Ensalada@13.70
+EN02@Ensalada de Pasta@Lechuga, espirales, maiz, tomate, atún, cebolla y pimienta negra@SI@Ensalada@12.50
+ET01@Crujientes de queso@Porciones de queso rebozado y frito con mermelada de tomate@NO@Entrante@9.50
+ET02@Provolone al horno@Queso italiano originario del sur de Italia, fundido y acompañado de especias y hierbas frescas@SI@Entrante@11.75
+ET03@Tabla de embutidos italianos@Guanciale, mortadella di Bologna, coppa piancentina, prosciutto cotto, salame@SI@Entrante@13
+PA01@Grissini@Pan crujiente de forma fina y alargada. 12 unidades@SI@Pan@2
+PA02@Pan de ajo@6 unidades de rodajas de pan con ajo y aceite de oliva virgen extra@NO@Pan@3.25
+PS01@Espaguetis carbonara@Espaguetis, salsa carbonara, bacon, champiñones y parmesano@NO@Pasta@12.5
+PS02@Lasaña vegetal@Pasta de espinacas con berenjena, zanahoria, queso, tomate, albahaca y orégano, cubierto con salsa bechamel@SI@Pasta@13
+PS03@Ravioli al pesto@Ravioli de quesos, con piñones, tomates cherry, parmesano y albahaca@SI@Pasta@13.75
+PI01@Pizza Cuatro quesos@Tomate, mozzarella, cabrales, emmental, parmesano y orégano@NO@Pizza@12.75
+PI02@Pizza Margarita@Tomate, mozzarella y albahaca@SI@Pizza@10.5
+PI03@Pizza Romana@Tomate, mozzarella, anchoas y aceitunas negras@SI@Pizza@11.5
+PI04@Pizza Vegetal@Tomate, mozzarella, pimientos, alcachofas, champiñones, alcaparras y cebolla@SI@Pizza@12.25
+PO01@Ensalada de frutas@Sandía, kiwi, uvas, mango y arándonos con salsa de miel@SI@Postre@3.25
+PO02@Tarta de queso@Tarta de queso al horno con mermelada de frutos rojos@NO@Postre@4.50
+PO03@Tiramisú@Capas de bizcocho empapado en café, queso suave y nata montada@NO@Postre@4.75

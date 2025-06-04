@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Extract method &apos;protected void confirm()&apos; from &apos;uo.cpm.s4.ui.VentanaPrincipal.ProcessCloseUp.actionPerformed(...)&apos; to &apos;uo.cpm.s4.ui.VentanaPrincipal.ProcessCloseUp&apos;&#x0D;&#x0A;- Original project: &apos;Traductor&apos;&#x0D;&#x0A;- Method name: &apos;confirm&apos;&#x0D;&#x0A;- Destination type: &apos;uo.cpm.s4.ui.VentanaPrincipal.ProcessCloseUp&apos;&#x0D;&#x0A;- Declared visibility: &apos;protected&apos;" comments="false" description="Extract method &apos;confirm&apos;" destination="0" exceptions="false" flags="786434" id="org.eclipse.jdt.ui.extract.method" input="/src&lt;uo.cpm.s4.ui{VentanaPrincipal.java" name="confirm" replace="false" selection="2917 142" stamp="1730844667505" version="1.0" visibility="4"/>
+</session>

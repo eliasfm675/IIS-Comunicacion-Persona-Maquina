@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="ImportExportAction">
+		<item key="ImportExportPage.STORE_SELECTED_IMPORT_WIZARD_ID" value="org.eclipse.ui.wizards.import.ExternalProject"/>
+		<item key="ImportExportPage.STORE_SELECTED_EXPORT_WIZARD_ID" value="org.eclipse.ui.wizards.export.ZipFile"/>
+		<list key="ImportExportPage.STORE_EXPANDED_IMPORT_CATEGORIES">
+			<item value="org.eclipse.ui.Basic"/>
+		</list>
+		<list key="ImportExportPage.STORE_EXPANDED_EXPORT_CATEGORIES">
+			<item value="org.eclipse.ui.Basic"/>
+		</list>
+	</section>
+	<section name="ZipFileExportWizard">
+		<item key="WizardZipFileResourceExportPage1.STORE_CREATE_STRUCTURE_ID" value="true"/>
+		<item key="WizardZipFileResourceExportPage1.STORE_COMPRESS_CONTENTS_ID" value="true"/>
+		<list key="WizardZipFileResourceExportPage1.STORE_DESTINATION_NAMES_ID">
+			<item value="C:\Users\Elías\OneDrive\Escritorio\Software\2do\Seminarios CPM\34313507Z.zip"/>
+			<item value="C:\Users\Elías\OneDrive\Escritorio\Software\2do\Seminarios CPM\prueba.zip"/>
+			<item value="C:\Users\Elías\OneDrive\Escritorio\Software\2do\Seminarios CPM\PL1-Elias-Fernandez-34313507Z.zip"/>
+			<item value="C:\Users\Elías\OneDrive\Escritorio\Software\2do\CPM\sesion11Task.zip"/>
+			<item value="C:\Users\Elías\OneDrive\Escritorio\Software\2do\Seminarios CPM\ProyectoInternacionalizado-EliasFernandezMedina-UO299673.zip"/>
+			<item value="C:\Users\Elías\OneDrive\Escritorio\Software\2do\CPM\sesion09Task.zip"/>
+			<item value="C:\Users\Elías\OneDrive\Escritorio\Software\2do\Seminarios CPM\TraductorEntrega-EliasFernandezMedina-UO299673.zip"/>
+			<item value="C:\Users\Elías\OneDrive\Escritorio\Software\2do\CPM\sesion07Task.zip"/>
+			<item value="C:\Users\Elías\OneDrive\Escritorio\Software\2do\CPM\sesion06Task.zip"/>
+			<item value="C:\Users\Elías\OneDrive\Escritorio\Software\2do\CPM\sesion05Task.zip"/>
+			<item value="C:\Users\Elías\OneDrive\Escritorio\Software\2do\CPM\sesion04Task.zip"/>
+			<item value="C:\Users\Elías\OneDrive\Escritorio\Software\2do\CPM\sesion03Task.zip"/>
+			<item value="C:\Users\Elías\OneDrive\Escritorio\Software\2do\CPM\sesion02task.zip"/>
+			<item value="C:\Users\Elías\Downloads\claseCPM.zip"/>
+		</list>
+	</section>
+	<section name="NewWizardAction">
+	</section>
+</section>

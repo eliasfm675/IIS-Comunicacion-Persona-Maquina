@@ -1,0 +1,23 @@
+1726955794100	Rename package 'uo.cpm.p3.ui.util.model'
+1726955807579	Rename package 'uo.cpm.p3.ui.util'
+1726955904564	Rename package 'uo.cpm.p3.console.service'
+1726956166223	Rename type 'Menu'
+1726957962317	Extract method 'registration'
+1726958251327	Extract method 'signUp'
+1726960682671	Copy file
+1726960689023	Copy file
+1726960860678	Rename package 'uo.cpm.p3.util.files'
+1726960905901	Copy file
+1726960922829	Delete elements
+1726960934106	Copy file
+1726962242103	Copy file
+1726962426305	Delete elements
+1726962467293	Delete element
+1726962476832	Rename type 'consolia'
+1726963121217	Copy compilation unit
+1726963131325	Delete element
+1726964103105	Delete element
+1726964314972	Delete elements
+1726964368497	Delete element
+1726964673286	Extract method 'mostrarVentanaConfirmacion'
+1727037642133	Delete elements

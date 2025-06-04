@@ -1,0 +1,145 @@
+package uo.cpm.modulo.ui;
+
+import java.awt.EventQueue;
+
+import javax.swing.JFrame;
+import javax.swing.JPanel;
+import javax.swing.border.EmptyBorder;
+import java.awt.CardLayout;
+import java.awt.Toolkit;
+import java.awt.BorderLayout;
+import javax.swing.JLabel;
+import javax.swing.JButton;
+import javax.swing.BoxLayout;
+import java.awt.GridLayout;
+import javax.swing.ImageIcon;
+import java.awt.Color;
+import java.awt.Font;
+import javax.swing.border.LineBorder;
+import javax.swing.SwingConstants;
+import java.awt.FlowLayout;
+
+public class VentanaPrincipal extends JFrame {
+
+	private JPanel contentPane;
+	private JPanel panelInicio;
+	private JPanel panelBienvenida;
+	private JPanel panelIdiomas;
+	private JButton btnSpanish;
+	private JLabel lblIngredients;
+	private JButton btnEnglish;
+	private JButton btnFrench;
+	private JButton btnItalian;
+	private JPanel panelSaludo;
+	private JLabel lblWelcome;
+
+	/**
+	 * Create the frame.
+	 */
+	public VentanaPrincipal() {
+		setTitle("Uniovi's ");
+		setIconImage(Toolkit.getDefaultToolkit().getImage(VentanaPrincipal.class.getResource("/img/logo.png")));
+		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		setBounds(100, 100, 728, 493);
+		contentPane = new JPanel();
+		contentPane.setBackground(new Color(255, 0, 0));
+		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
+
+		setContentPane(contentPane);
+		contentPane.setLayout(new CardLayout(0, 0));
+		contentPane.add(getPanelInicio(), "name_1017892594500");
+	}
+
+	private JPanel getPanelInicio() {
+		if (panelInicio == null) {
+			panelInicio = new JPanel();
+			panelInicio.setBackground(new Color(255, 0, 0));
+			panelInicio.setLayout(new BorderLayout(0, 0));
+			panelInicio.add(getPanelBienvenida(), BorderLayout.CENTER);
+			panelInicio.add(getPanelIdiomas(), BorderLayout.NORTH);
+			panelInicio.add(getPanelSaludo(), BorderLayout.SOUTH);
+		}
+		return panelInicio;
+	}
+	private JPanel getPanelBienvenida() {
+		if (panelBienvenida == null) {
+			panelBienvenida = new JPanel();
+			panelBienvenida.setBackground(new Color(50, 205, 50));
+			panelBienvenida.setLayout(new BorderLayout(0, 0));
+			panelBienvenida.add(getLblIngredients(), BorderLayout.CENTER);
+		}
+		return panelBienvenida;
+	}
+	private JPanel getPanelIdiomas() {
+		if (panelIdiomas == null) {
+			panelIdiomas = new JPanel();
+			panelIdiomas.setBackground(new Color(255, 0, 0));
+			panelIdiomas.setLayout(new GridLayout(0, 4, 0, 0));
+			panelIdiomas.add(getBtnNewButton_1());
+			panelIdiomas.add(getBtnEnglish());
+			panelIdiomas.add(getBtnFrench());
+			panelIdiomas.add(getBtnItalian());
+		}
+		return panelIdiomas;
+	}
+	private JButton getBtnNewButton_1() {
+		if (btnSpanish == null) {
+			btnSpanish = new JButton("");
+			btnSpanish.setBackground(new Color(255, 255, 255));
+			btnSpanish.setIcon(new ImageIcon(VentanaPrincipal.class.getResource("/img/es.png")));
+		}
+		return btnSpanish;
+	}
+	private JLabel getLblIngredients() {
+		if (lblIngredients == null) {
+			lblIngredients = new JLabel("");
+			lblIngredients.setHorizontalAlignment(SwingConstants.CENTER);
+			lblIngredients.setIcon(new ImageIcon(VentanaPrincipal.class.getResource("/img/bienvenida.png")));
+		}
+		return lblIngredients;
+	}
+	private JButton getBtnEnglish() {
+		if (btnEnglish == null) {
+			btnEnglish = new JButton("");
+			btnEnglish.setIcon(new ImageIcon(VentanaPrincipal.class.getResource("/img/en.png")));
+			btnEnglish.setBackground(Color.WHITE);
+		}
+		return btnEnglish;
+	}
+	private JButton getBtnFrench() {
+		if (btnFrench == null) {
+			btnFrench = new JButton("");
+			btnFrench.setIcon(new ImageIcon(VentanaPrincipal.class.getResource("/img/fr.png")));
+			btnFrench.setBackground(Color.WHITE);
+		}
+		return btnFrench;
+	}
+	private JButton getBtnItalian() {
+		if (btnItalian == null) {
+			btnItalian = new JButton("");
+			btnItalian.setIcon(new ImageIcon(VentanaPrincipal.class.getResource("/img/it.png")));
+			btnItalian.setBackground(Color.WHITE);
+		}
+		return btnItalian;
+	}
+	private JPanel getPanelSaludo() {
+		if (panelSaludo == null) {
+			panelSaludo = new JPanel();
+			panelSaludo.setBackground(new Color(255, 0, 0));
+			panelSaludo.setLayout(new FlowLayout(FlowLayout.CENTER, 5, 5));
+			panelSaludo.add(getLblWelcome_1());
+		}
+		return panelSaludo;
+	}
+	private JLabel getLblWelcome_1() {
+		if (lblWelcome == null) {
+			lblWelcome = new JLabel("\u00A1Bienvenido a Uniovi's!");
+			lblWelcome.setHorizontalAlignment(SwingConstants.CENTER);
+			lblWelcome.setForeground(Color.WHITE);
+			lblWelcome.setFont(new Font("Dialog", Font.BOLD, 33));
+			lblWelcome.setBorder(new LineBorder(new Color(128, 128, 0), 4));
+			lblWelcome.setBackground(Color.WHITE);
+		}
+		return lblWelcome;
+	}
+}

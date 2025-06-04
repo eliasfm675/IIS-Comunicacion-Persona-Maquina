@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy package &apos;uo.cpm.p3.util&apos; to &apos;ModuloPracticas/src/uo.cpm.modulo&apos;&#x0D;&#x0A;- Original project: &apos;Practica5&apos;&#x0D;&#x0A;- Destination element: &apos;ModuloPracticas/src/uo.cpm.modulo&apos;&#x0D;&#x0A;- Original element: &apos;Practica5/src/uo.cpm.p3.util&apos;" description="Copy package" destination="=ModuloPracticas/src&lt;uo.cpm.modulo" element1="/src&lt;uo.cpm.p3.util" flags="589830" fragments="1" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyPackages" stamp="1735500766817" version="1.0"/>
+</session>

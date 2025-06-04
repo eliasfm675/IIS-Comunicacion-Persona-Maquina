@@ -1,0 +1,63 @@
+package uo.cpm.p3.service;
+
+import java.util.HashMap;
+
+import uo.cpm.p3.model.Customer;
+import uo.cpm.p3.model.Menu;
+import uo.cpm.p3.model.Order;
+import uo.cpm.p3.model.Product;
+
+public class McDonalds {
+
+	Menu menu = new Menu();
+	Order order = new Order();
+	public static final int EDAD_MIN=16;
+	public static final int EDAD_MAX=100;
+	
+	
+	public McDonalds() {
+		initOrder();		
+	}
+	
+	public String getOrderCode()
+	{
+		return order.getCode();
+	}
+	
+	public void addToOrder ( Product p, Integer units )
+	{
+		order.add(p, units);
+	}
+	
+	public Object getOrderTotal() {
+		// TODO Auto-generated method stub
+		return order.getPrice();
+	}
+	
+	public void saveCustomerData (String name, Integer year, String password)
+	{
+		order.setCustomer ( new Customer ( name, password, year ));
+	}
+	
+	public void setOrderType( boolean takeAway )
+	{
+		order.setTakeAway( takeAway);
+	}
+	public Product[] getMenuProducts()
+	{
+		return menu.getProducts();
+	}
+	public void initOrder()
+	{
+		order.initialize();
+	}
+	public int searchUnits(Product p) {
+		return order.searchUnits(p);
+	}
+	public void saveOrder()
+	{
+		order.saveOrder();
+	}
+
+	
+}

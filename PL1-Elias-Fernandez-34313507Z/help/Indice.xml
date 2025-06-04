@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='ISO-8859-1'  ?>
+<!DOCTYPE index
+  PUBLIC "-//Sun Microsystems Inc.//DTD JavaHelp Index Version 1.0//EN"
+         "http://java.sun.com/products/javahelp/index_1_0.dtd">
+
+<index version="1.0">
+    <indexitem text="descripción de EII Music Player" target="introduccion" />  
+    <indexitem text="gestion del pedido">
+    	  <indexitem text="registro" target="registro" />
+    	  <indexitem text="menu" target="menu" />
+    	  <indexitem text="menu producto" target="producto" />
+    </indexitem>
+
+  <indexitem text="juego" target="juego" />  
+</index>

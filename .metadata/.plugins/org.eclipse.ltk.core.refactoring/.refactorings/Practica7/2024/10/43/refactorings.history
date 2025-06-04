@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Extract method &apos;protected void actualizarBotones()&apos; from &apos;uo.cpm.p6.ui.VentanaPrincipal.inicializarJuego()&apos; to &apos;uo.cpm.p6.ui.VentanaPrincipal&apos;&#x0D;&#x0A;- Original project: &apos;Practica7&apos;&#x0D;&#x0A;- Method name: &apos;actualizarBotones&apos;&#x0D;&#x0A;- Destination type: &apos;uo.cpm.p6.ui.VentanaPrincipal&apos;&#x0D;&#x0A;- Declared visibility: &apos;protected&apos;" comments="false" description="Extract method &apos;actualizarBotones&apos;" destination="0" exceptions="false" flags="786434" id="org.eclipse.jdt.ui.extract.method" input="/src&lt;uo.cpm.p6.ui{VentanaPrincipal.java" name="actualizarBotones" replace="false" selection="10827 37" stamp="1729964601297" version="1.0" visibility="4"/>
+</session>
